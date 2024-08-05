@@ -50,6 +50,7 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+             pnpm run sync
 
       - name: Run app
         run: pnpm start
